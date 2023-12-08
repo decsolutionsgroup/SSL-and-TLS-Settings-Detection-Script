@@ -1,7 +1,6 @@
 @echo off
 color 1e
 cls
-:checking_permissions
 echo Detecting if you currently have the required permissions (Administrative)
 net session >nul 2>&1
 if %errorLevel% == 0 (
